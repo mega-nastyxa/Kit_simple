@@ -41,6 +41,7 @@
     font-size: 21px;
     text-align: right;
     margin-bottom: 4px;
+    flex-direction: column;
 }
 
 
@@ -112,6 +113,10 @@
 
     .menu {
         display: none;
+    }
+
+    .menu__list-link {
+        font-size: 35px;
     }
 
     .header__contacts {

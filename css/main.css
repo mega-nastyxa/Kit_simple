@@ -21,9 +21,6 @@ html, body {
     height: 542px;
 }
 
-/* .container-main {
-    padding-left: 270px;
-} */
 .main__supply {
     display: flex;
     justify-content: space-between;
