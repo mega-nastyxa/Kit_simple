@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@400;700&family=Roboto:wght@500&display=swap'); 
+
+@import "./reset.css";
+@import "./header.css";
+@import "./burger.css";
+@import "./footer.css";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.wrapper { 
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 542px;
+}
+
+/* .container-main {
+    padding-left: 270px;
+} */
+.main__supply {
+    display: flex;
+    justify-content: space-between;
+}
+.supply__content {
+    max-width: 623px;
+    font-family: "Dela Gothic One", serif;
+    font-weight: 400;
+
+    padding-top: 108px;
+    margin-left: 154px;
+}
+.supply__title {
+    font-size: 67px ;
+    color: #2E3D6C;
+    line-height: 72px;
+}
+.supply__btn {
+    border-radius: 14px;
+    background-color: #505e8c;
+    align-self: flex-start;
+    margin-top: 77px;
+    font-size: 19px;
+    color: #fff;
+    line-height: 1;
+    padding: 22px 27px;
+    cursor: pointer;
+    border: none;
+}
+
+.supply__btn:hover {
+    background-color: #5c6ca0;
+}
+
+.supply__btn:active {
+    background-color: #5c6ca0;
+    transform: translateY(1px);
+}
+
+.supply__img {
+    z-index: -1;
+    margin-top: -32px;
+    margin-right: -328px;
+}
+
