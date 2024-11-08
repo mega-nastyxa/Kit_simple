@@ -1,0 +1,97 @@
+html__catalog {
+    overflow: scroll;
+}
+
+.catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 104px 0 99px 0;
+}
+.catalog__name {
+    font-family: "Dela Gothic One", serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #505E8C;
+    text-align: center;
+    padding-top: 52px;
+}
+
+.catalog__card {
+    max-width: 1256px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 28px;
+    grid-row-gap: 21px;
+}
+.card {
+    border: 2px solid #556BAF;
+    border-radius: 29px;
+    
+    width: 186px;
+    height: 239px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__img { 
+    text-align: center;
+    padding-top: 31px;
+}
+
+.card__text {
+    width: 150px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #888B95;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1440px) {
+    .catalog__card {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1076px) {
+    .catalog__card {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .catalog__card {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 13px;
+        grid-row-gap: 11px;
+    }
+
+    .card {
+        border: 2px solid #556BAF;
+        border-radius: 14px;
+        
+        width: 120px;
+        height: 150px;
+    }
+
+    .card__img { 
+        text-align: center;
+        padding-top: 15px;
+        
+    }
+    
+    .card__text {
+        width: 110px;
+        font-family: "Roboto", serif;
+        font-weight: 500;
+        font-size: 11px;
+        text-align: center;
+        color: #888B95;
+        padding-bottom: 10px;
+    }
+}
