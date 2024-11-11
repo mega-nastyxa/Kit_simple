@@ -1,10 +1,8 @@
 .footer {
     background-image: url(./../img/wave1.svg);
     width: 100%;
-    max-height: 700px;
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 100vh;
 }
 
 .wave {
@@ -21,9 +19,145 @@
     font-size: 25px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-
+    
+    padding-top: 88px;
 }
 
 .wave__img {
-    width: 209px;
+    padding-top: 88px;
+}
+
+@media (max-width: 1646px) {
+    .footer {
+        height: 326px;
+    }
+    
+    .wave {
+        height: 326px;
+    }
+    
+    .wave__text {
+        padding-top: 70px;
+        font-size: 20px;
+        width: 510px;
+    }
+    
+    .wave__img {
+        padding-top: 67px;
+    }
+
+    .img_whale {
+        width: 164px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .footer {
+        height: 280px;
+    }
+    
+    .wave {
+        height: 280px;
+    }
+    
+    .wave__img {
+        padding-top: 36px;
+    }
+
+    .img_whale {
+        width: 164px;
+    }
+}
+
+@media (max-width: 1170px) {
+    .footer {
+        height: 230px;
+    }
+    
+    .wave {
+        height: 230px;
+    }
+
+    .wave__text {
+        padding-top: 60px;
+        font-size: 17px;
+    }
+    
+    .wave__img {
+        padding-top: 36px;
+    }
+
+    .img_whale {
+        width: 130px;
+    }
+}
+
+@media (max-width: 910px) {
+    .footer {
+        height: 200px;
+    }
+    
+    .wave {
+        height: 200px;
+    }
+
+    .wave__text {
+        padding-top: 50px;
+        font-size: 15px;
+        width: 400px;
+    }
+    
+    .wave__img {
+        padding-top: 36px;
+    }
+
+    .img_whale {
+        width: 100px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .footer {
+        height: 122px;
+    }
+    
+    .wave {
+        height: 122px;
+    }
+
+    .wave__text {
+        padding-top: 30px;
+        margin-left: 20px;
+        font-size: 10px;
+        width: 210px;
+        font-weight: 400;
+    }
+    
+    .wave__img {
+        padding-top: 30px;
+        margin-right: 15px;
+    }
+
+    .img_whale {
+        width: 70px;
+    }
+}
+
+@media (max-width: 420px) { 
+    .wave__text {
+        padding-top: 15px;
+        margin-left: 4px;
+        font-size: 9px;
+        width: 190px;
+    }
+    
+    .wave__img {
+        padding-top: 15px;
+        margin-right: 4px;
+    }
+
+    .img_whale {
+        width: 64px;
+    }
 }
