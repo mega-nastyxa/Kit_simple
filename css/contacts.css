@@ -1,0 +1,251 @@
+.supply__content__contacts {
+    margin-left: 0px;
+    max-width: 690px;
+}
+
+.supply__title__contacts {
+    font-size: 23px;
+    line-height: 43px;
+    color: #505E8C;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding-top: 90px;
+
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+
+    height: 117px;
+}
+
+.contacts__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-right: 13px;
+}
+
+@media (max-width: 1460px) {
+    .supply__content__contacts {
+        margin-left: 30px;
+        max-width: 448px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .supply__content__contacts {
+        
+        margin-left: 66px;
+        max-width: 448px;
+    }
+
+    .supply__title__contacts {
+        font-size: 23px;
+        line-height: 43px;
+        padding-top: 52px;
+    
+    }
+
+    .contacts {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 1170px) {
+    .supply__content__contacts {
+        
+        margin-left: 66px;
+        max-width: 360px;
+    }
+
+    .supply__title__contacts {
+        font-size: 18px;
+        line-height: 34px;
+        padding-top: 31px;
+    }
+
+    .contacts {
+        margin-top: 25px;
+    }
+
+    .contacts__icon {
+        padding-top: 11px;
+        height: 92px;
+    }
+
+    .icon {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (max-width: 1054px) {
+    .supply__content__contacts {
+        padding-top: 60px;
+        margin-left: 35px;
+    }
+}
+
+@media (max-width: 964px) {
+    .supply__content__contacts {
+        padding-top: 42px;
+        margin-left: 35px;
+        max-width: 309px;
+    }
+
+    .supply__title__contacts {
+        font-size: 16px;
+        line-height: 29px;
+        padding-top: 31px;
+    }
+
+    .contacts {
+        margin-top: 25px;
+    }
+
+    .contacts__icon {
+        padding-top: 9px;
+        height: 78px;
+        padding-right: 8px;
+    }
+
+    .icon {
+        width: 13px;
+        height: 13px;
+    }
+}
+
+@media (max-width: 829px) {
+    .supply__content__contacts {
+        padding-top: 42px;
+        margin-left: 35px;
+        max-width: 250px;
+    }
+
+    .supply__title__contacts {
+        font-size: 13px;
+        line-height: 24px;
+        padding-top: 31px;
+    }
+
+    .contacts {
+        margin-top: 25px;
+    }
+
+    .contacts__icon {
+        padding-top: 8px;
+        height: 66px;
+        padding-right: 8px;
+    }
+
+    .icon {
+        width: 11px;
+        height: 11px;
+    }
+}
+
+@media (max-width: 678px) {
+    .supply__content__contacts {
+        padding-top: 36px;
+        margin-left: 26px;
+        max-width: 190px;
+        
+    }
+
+    .supply__title__contacts {
+        font-size: 10px;
+        line-height: 19px;
+        padding-top: 31px;
+    }
+
+    .contacts {
+        margin-top: 19px;
+    }
+
+    .contacts__icon {
+        padding-top: 6px;
+        height: 51px;
+        padding-right: 6px;
+    }
+
+    .icon {
+        width: 9px;
+        height: 9px;
+    } 
+}
+
+@media (max-width: 600px) {
+    .supply__content__contacts {
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 550px) {
+    .supply__content__contacts {
+        padding-top: 50px;
+        max-width: 400px;
+        height: 288px;
+    }
+
+    .supply__title__contacts {
+        font-size: 13px;
+        line-height: 24px;
+        padding-top: 31px;
+    }
+
+    .contacts {
+        margin-top: 25px;
+    }
+
+    .contacts__icon {
+        padding-top: 8px;
+        height: 66px;
+        padding-right: 8px;
+    }
+
+    .icon {
+        width: 11px;
+        height: 11px;
+    }
+}
+
+@media (max-width: 425px) {
+    .supply__content__contacts {
+        padding-top: 50px;
+        max-width: 190px;
+        height: 288px;
+    }
+
+    .supply__title__contacts {
+        font-size: 10px;
+        line-height: 19px;
+        padding-top: 31px;
+    }
+
+    .contacts {
+        margin-top: 19px;
+    }
+
+    .contacts__icon {
+        padding-top: 6px;
+        height: 51px;
+        padding-right: 6px;
+    }
+
+    .icon {
+        width: 9px;
+        height: 9px;
+    } 
+}
+
+@media (max-width: 320px) {
+    .supply__content__contacts {
+        padding-top: 30px;
+        max-width: 190px;
+        height: 252px;
+    }
+}
+

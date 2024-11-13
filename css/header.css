@@ -123,3 +123,10 @@
         display: none;
     }
 }
+
+@media (max-width: 425px) {
+    .menu__list-link {
+        font-size: 27px;
+    }
+}
+
