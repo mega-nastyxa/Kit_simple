@@ -41,7 +41,7 @@ img {
     width: 100%;
 }
 
-.card__tap {
+.card__img__tap {
     padding-top: 0px !important;
 }
 
@@ -53,6 +53,10 @@ img {
     text-align: center;
     color: #888B95;
     padding-bottom: 20px;
+}
+
+.card__img-helmet {
+    padding-top: 22px;
 }
 
 @media (max-width: 1440px) {
@@ -122,6 +126,16 @@ img {
         color: #888B95;
         padding-bottom: 10px;
     }
+
+    .card__img__tap {
+        height: 107px;
+        width: 72px;
+    }
+
+    .img-tap {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 
@@ -160,5 +174,15 @@ img {
         text-align: center;
         color: #888B95;
         padding-bottom: 5px;
+    }
+
+    .card__img__tap {
+        height: 81px;
+        width: 55px;
+    }
+
+    .img-tap {
+        height: 100%;
+        width: 100%;
     }
 }

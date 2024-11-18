@@ -59,7 +59,7 @@
 
 @media (max-width: 1170px) {
     .header {
-        height: 90px;
+        height: 78px;
     }
 
     .header__inner {
@@ -78,10 +78,15 @@
         font-size: 18px;
     }
 }
+@media (max-width: 1024px) {
+    .header__contacts h1 {
+        font-size: 15px;
+    }
+}
 
 @media (max-width: 910px) {
     .header {
-        height: 80px;
+        height: 76px;
     }
 
     .menu__list {
@@ -93,7 +98,7 @@
     }
 
     .header__contacts h1 {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
