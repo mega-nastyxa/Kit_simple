@@ -4,6 +4,7 @@
 @import "./header.css";
 @import "./burger.css";
 @import "./footer.css";
+@import "./dialog.css";
 
 html, body {
     height: 100%;

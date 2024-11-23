@@ -48,10 +48,11 @@
               <h2 class="supply__title">
                 Комплексные поставки оборудования и материалов
               </h2>
-              <button class="supply__btn">
+              <button id="updateDetails" class="supply__btn">
                 <p>Оставить заявку</p>
               </button>
             </div>
+            
             <div class="supply__img">
               <img class="supply-img" src="./img/supple.png" alt="">
               <img class="supply-img supply-img__double" src="./img/supple_dubble.png" alt="">
@@ -71,7 +72,17 @@
           </div>
         </div>
       </footer>
-      <script src="main.js"></script>
     </div>
+
+    <dialog id="favDialog">
+        <form class="dialog__menu" method="dialog">
+          <input class="dialog__input dialog__input_text" type="text" placeholder="Ваше Имя">
+          <input class="dialog__input dialog__input_number" type="tel" placeholder="Номер телефона">
+            <button class="dialog__input dialog__input_button" id="cancel" type="reset">Отправить</button>
+          </div>
+        </form>
+    </dialog>
+
+    <script src="main.js"></script>
   </body>
 </html>

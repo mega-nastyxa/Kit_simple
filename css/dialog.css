@@ -1,0 +1,82 @@
+dialog {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+#favDialog {
+    width: 435px;
+    height: 228px;
+    
+    border: 0px;
+    border-radius: 10px;
+    
+    
+}
+
+.dialog__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dialog__input {
+    width: 387px;
+    height: 46px;
+    margin-top: 20px;
+
+    border-radius: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.dialog__input_button {
+    width: 250px;
+    height: 50px;
+    background-color: #505e8c;
+    font-size: 15px;
+    color: #fff;
+    line-height: 1;
+
+    margin-top: 27px;
+
+    font-family: "Dela Gothic One", serif;
+    font-weight: 400;
+}
+
+.dialog__input_button:hover {
+    background-color: #5c6ca0;
+}
+
+.dialog__input_button:active {
+    background-color: #5c6ca0;
+    transform: translateY(1px);
+}
+
+.dialog__input_text,
+.dialog__input_number {
+    padding-left: 11px;
+}
+
+@media (max-width: 768px) {
+    .dialog__input {
+        width: 266px;
+        height: 30px;
+        border-radius: 7px;
+        font-size: 10px;
+    }
+
+    .dialog__input_button { 
+        width: 170px;
+        height: 33px;
+
+        font-size: 10px;
+        margin-top: 15px;
+    }
+
+    #favDialog {
+        width: 300px;
+        height: 157px;
+    }
+}
