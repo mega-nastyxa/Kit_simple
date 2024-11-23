@@ -6,12 +6,9 @@ dialog {
 
 #favDialog {
     width: 435px;
-    height: 228px;
     
     border: 0px;
     border-radius: 10px;
-    
-    
 }
 
 .dialog__menu {
@@ -31,6 +28,10 @@ dialog {
     font-weight: 400;
 }
 
+.dialog__input_text {
+    margin-top: 30px;
+}
+
 .dialog__input_button {
     width: 250px;
     height: 50px;
@@ -43,6 +44,7 @@ dialog {
 
     font-family: "Dela Gothic One", serif;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 
 .dialog__input_button:hover {
@@ -55,8 +57,29 @@ dialog {
 }
 
 .dialog__input_text,
-.dialog__input_number {
+.dialog__input_number,
+.dialog__input_comment { 
     padding-left: 11px;
+}
+
+.dialog__input_comment {
+    min-height: 90px;
+    width: 387px;
+    display: flex;
+    text-align: left;
+    padding-top: 9px;
+
+    resize: none;
+    border: 1px solid rgb(221, 221, 221);
+    
+}
+
+.dialog__input_avatar {
+    border: 0px;
+    border-radius: 0px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    height: 30px;
 }
 
 @media (max-width: 768px) {
@@ -65,6 +88,11 @@ dialog {
         height: 30px;
         border-radius: 7px;
         font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .dialog__input_text {
+        margin-top: 20px;
     }
 
     .dialog__input_button { 
@@ -72,11 +100,10 @@ dialog {
         height: 33px;
 
         font-size: 10px;
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
     #favDialog {
         width: 300px;
-        height: 157px;
     }
 }
