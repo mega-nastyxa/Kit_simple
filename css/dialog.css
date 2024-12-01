@@ -17,6 +17,20 @@ dialog {
     align-items: center;
 }
 
+.dialog__close {
+    width: 418px;
+    display: flex;
+    justify-content: end;
+    border: none;
+
+    margin-top: 9px;
+}
+
+.dialog__close_img {
+    width: 25px;
+    height: 25px;
+}
+
 .dialog__input {
     width: 387px;
     height: 46px;
@@ -29,7 +43,7 @@ dialog {
 }
 
 .dialog__input_text {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .dialog__input_button {
@@ -91,8 +105,22 @@ dialog {
         margin-top: 10px;
     }
 
+    .dialog__close {
+        max-width: 285px;
+        display: flex;
+        justify-content: end;
+        border: none;
+    
+        margin-top: 9px;
+    }
+    
+    .dialog__close_img {
+        width: 18px;
+        height: 18px;
+    }
+
     .dialog__input_text {
-        margin-top: 20px;
+        margin-top: 6px;
     }
 
     .dialog__input_button { 
@@ -105,5 +133,21 @@ dialog {
 
     #favDialog {
         width: 300px;
+    }
+}
+
+@media (max-width: 320px) {
+    .dialog__close {
+        max-width: 270px;
+        display: flex;
+        justify-content: end;
+        border: none;
+    
+        margin-top: 9px;
+    }
+    
+    .dialog__close_img {
+        width: 18px;
+        height: 18px;
     }
 }
